@@ -5,11 +5,13 @@
  <!-- </ngx-spinner> -->
 
 <!--The code to display images -->
-<div *ngFor="let x of articles;let i=index" >
-<h3>
-   Author: {{ x.author }}
- </h3>
- <p>Published at: {{ x.publishedAt }}</p>
- <div>Description: {{ x.description }}</div><br/><br/>
- <!-- <div>Content: {{x.content}}</div> -->
+<div *ngFor="let x of articles;let i=index" class="card">
+  <div class="container">
+    <h3>
+    Author: {{ x.author }}
+    </h3>
+    <p>Published at: {{ x.publishedAt }}</p>
+    <div>Description: {{ x.description }}</div><br/><br/>
+    <!-- <div>Content: {{x.content}}</div> -->
+  </div>
 </div>
