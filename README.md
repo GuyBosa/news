@@ -1,4 +1,6 @@
 This is an Angular 6 webapp implementing bootstrap, lodash and the newsapi.org/ API
+![Screenshot (512)](https://user-images.githubusercontent.com/40579537/111053695-9a9a3b00-846e-11eb-8f54-792c6be120be.png)
+
 
 1. Install Nodejs and npm (https://nodejs.org/en/)
 2. Install Angular CLI. Open Command Line (CMD) and run the command "npm install -g @angular/cli"
